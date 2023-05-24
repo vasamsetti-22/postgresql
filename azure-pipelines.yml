@@ -41,7 +41,7 @@ stages:
   - deployment: VMDeploy
     displayName: web
     environment:
-      name: myapp
+      name: test
       resourceType: VirtualMachine
     strategy:
         rolling:
